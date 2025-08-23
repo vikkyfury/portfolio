@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiDownload, FiStar } from 'react-icons/fi';
 import AccentButton from './AccentButton';
 
 const Hero: React.FC = () => {
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number; speed: number }>>([]);
-  const { scrollY } = useScroll();
-  const y = useTransform(scrollY, [0, 1000], [0, 300]);
-  const springY = useSpring(y, { stiffness: 100, damping: 30 });
+
 
   // Generate particles
   useEffect(() => {

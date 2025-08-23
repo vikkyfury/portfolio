@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiMapPin, FiPhone, FiSend, FiCheckCircle, FiMessageSquare, FiUser, FiClock, FiGlobe } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiMapPin, FiPhone, FiSend, FiCheckCircle, FiMessageSquare, FiUser, FiGlobe } from 'react-icons/fi';
 import emailjs from '@emailjs/browser';
 import Section from './Section';
 import AccentButton from './AccentButton';

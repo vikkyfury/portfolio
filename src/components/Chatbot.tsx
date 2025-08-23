@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiMessageCircle, FiX, FiSend, FiUser, FiStar, FiZap, FiMessageSquare, FiHeadphones, FiCpu } from 'react-icons/fi';
+import { FiMessageCircle, FiX, FiSend, FiUser, FiStar, FiCpu } from 'react-icons/fi';
 
 interface Message {
   id: string;

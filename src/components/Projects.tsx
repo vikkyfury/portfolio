@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiArrowRight, FiRotateCcw, FiInfo } from 'react-icons/fi';
 import Section from './Section';
-import AccentButton from './AccentButton';
 
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState('all');

@@ -140,7 +140,7 @@ const Skills: React.FC = () => {
   const conceptsSet = new Set(['LLMs','NLP','Generative AI','RAG','Transformers','Computer Vision','Agents','RLHF','MLOps','LLMOps','Claude','Cursor','MCP','Supervised Learning','Unsupervised Learning','Responsible AI']);
   const databasesSet = new Set(['MySQL','PostgreSQL','MongoDB','Oracle','DynamoDB','Pinecone']);
   const cloudSet = new Set(['AWS','Azure','Docker','Kubernetes','Git','CI/CD','GitHub Actions']);
-  const toolsSet = new Set(['Flask','FastAPI','REST APIs','React.js','Postman','Agile','SCRUM','Jenkins','Swagger','JIRA','Node.js']);
+
 
   const getCategory = (skill: string): 'lang' | 'framework' | 'concept' | 'db' | 'cloud' | 'tool' => {
     if (languageSet.has(skill)) return 'lang';

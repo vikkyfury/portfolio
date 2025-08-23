@@ -1,10 +1,9 @@
-import React, { useState, useContext } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FiMapPin, FiCalendar, FiExternalLink, FiChevronDown, FiChevronUp, FiBriefcase, FiBookOpen, FiAward, FiTrendingUp, FiArrowRight, FiCpu, FiBarChart2, FiZap } from 'react-icons/fi';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { FiMapPin, FiCalendar, FiBriefcase, FiBookOpen, FiAward, FiTrendingUp, FiArrowRight, FiCpu, FiBarChart2, FiZap } from 'react-icons/fi';
 import Section from './Section';
 
 const Experience: React.FC = () => {
-  const [expandedCards, setExpandedCards] = useState<number[]>([]);
   const [activeFilter, setActiveFilter] = useState('all');
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
   const [expandedTech, setExpandedTech] = useState<number[]>([]);
@@ -112,13 +111,7 @@ const Experience: React.FC = () => {
     ? experiences 
     : experiences.filter(exp => exp.category === activeFilter);
 
-  const toggleCard = (id: number) => {
-    setExpandedCards(prev => 
-      prev.includes(id) 
-        ? prev.filter(cardId => cardId !== id)
-        : [...prev, id]
-    );
-  };
+
 
   const flipCard = (id: number) => {
     console.log('FLIP CARD CALLED with ID:', id);
