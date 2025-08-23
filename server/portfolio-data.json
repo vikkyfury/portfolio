@@ -1,0 +1,163 @@
+{
+  "about": {
+    "name": "Vikas",
+    "title": "AI Engineer",
+    "experience": "1+ years",
+    "education": "Masters in AI",
+    "location": "Remote",
+    "description": "AI Engineer with 1+ years of experience and a Master's degree in AI, specializing in machine learning, natural language processing, and building intelligent systems that solve real-world problems."
+  },
+  "workExperience": [
+    {
+      "id": 1,
+      "title": "AI Engineer",
+      "company": "Community Dreams Foundation",
+      "period": "Jul 2025 - Present",
+      "location": "United States",
+      "description": "Designing and optimizing LLM workflows and RAG pipelines, integrating automated evaluation loops to ensure accuracy, efficiency, and responsible AI alignment.",
+      "achievements": [
+        "Designed and optimized LLM workflows and RAG pipelines, integrating automated evaluation loops to ensure accuracy, efficiency, and responsible AI alignment",
+        "Defined measurement frameworks (latency, accuracy, utility) to track model effectiveness, cutting evaluation cycle time by 30%",
+        "Collaborated with cross-functional stakeholders (engineering, product, analytics) to align model outputs with business objectives and user satisfaction metrics"
+      ],
+      "technologies": ["RAG Pipelines", "Prompting", "LLM Workflows", "AI Alignment", "Evaluation Frameworks"],
+      "category": "AI/ML"
+    },
+    {
+      "id": 2,
+      "title": "Data Analyst - Junior",
+      "company": "Community Dreams Foundation",
+      "period": "Mar 2025 - Jul 2025",
+      "location": "United States",
+      "description": "Led exploratory data analysis on shipment scheduling data and collaborated on ARIMA-based forecasting to reduce raw material waste.",
+      "achievements": [
+        "Led exploratory data analysis on 2.5+ years of shipment scheduling data to identify trends, seasonality, and inefficiencies in raw material usage using time series decomposition and correlation analysis",
+        "Collaborated on ARIMA based forecasting to reduce raw material waste by 15–20% through predictive scheduling"
+      ],
+      "technologies": ["Time Series Analysis", "ARIMA", "EDA", "Data Visualization", "Python"],
+      "category": "Data Analysis"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning Intern",
+      "company": "Appetit",
+      "period": "Aug 2024 - Dec 2024",
+      "location": "United States",
+      "description": "Developed conversational AI chatbot and multi-agent system for database querying using natural language.",
+      "achievements": [
+        "Developed a conversational AI chatbot to enable non-technical stakeholders to query MongoDB using natural language",
+        "Set up a multi agent system using Crew AI, automating query generation and improving data retrieval speed",
+        "Optimized product name matching using Pinecone vector embeddings and RAG, improving information retrieval and cutting response latency by 50%",
+        "Automated schema analysis, reducing query formulation errors by 25%, improving data quality and decision making",
+        "Monitored agent performance with LangSmith, achieving a 40% improvement in benchmark scores post-optimization",
+        "Introduced a feedback loop using LLM Judge (OLLaMA model) with scoring, discrepancy checks to refine agent responses"
+      ],
+      "technologies": ["Crew AI", "RAG", "Pinecone", "MongoDB", "FastAPI", "LangSmith", "LLM Judge"],
+      "category": "AI/ML"
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Master of Science in Artificial Intelligence",
+      "school": "State University of New York at Buffalo",
+      "period": "Aug 2023 - Jan 2025",
+      "location": "Buffalo, NY",
+      "description": "School of Engineering and Applied Sciences. Specialized in Machine Learning, Deep Learning, and Natural Language Processing. Focused on AI/ML coursework, algorithms, and practical applications in artificial intelligence.",
+      "highlights": [
+        "Machine Learning and Deep Learning",
+        "Natural Language Processing",
+        "AI/ML Algorithms and Applications",
+        "Research in Transformer Architectures"
+      ],
+      "gpa": "3.6/4.0"
+    },
+    {
+      "id": 2,
+      "degree": "Bachelor of Technology in Mechanical Engineering",
+      "school": "G. Pulla Reddy Engineering College",
+      "period": "Jul 2018 - Jun 2022",
+      "location": "India",
+      "description": "Focused on mechanical engineering principles, design, and manufacturing processes. Developed strong analytical and problem-solving skills.",
+      "highlights": [
+        "Mechanical Design and Manufacturing",
+        "Analytical Problem Solving",
+        "Engineering Principles",
+        "Project Management"
+      ],
+      "gpa": "9.12/10.0"
+    }
+  ],
+  "technicalSkills": [
+    { "name": "Python", "level": 95, "description": "Core programming language for AI/ML" },
+    { "name": "PyTorch", "level": 90, "description": "Deep learning framework" },
+    { "name": "Hugging Face", "level": 88, "description": "Transformers and NLP" },
+    { "name": "LangChain", "level": 85, "description": "LLM development and integration" },
+    { "name": "Docker", "level": 85, "description": "Containerization and deployment" },
+    { "name": "FastAPI", "level": 82, "description": "API development" },
+    { "name": "OpenAI", "level": 80, "description": "LLM integration" },
+    { "name": "SQL", "level": 80, "description": "Database management" },
+    { "name": "AWS", "level": 75, "description": "Cloud services" },
+    { "name": "TensorFlow", "level": 85, "description": "Machine learning" }
+  ],
+  "softSkills": [
+    { "name": "Problem Solving", "level": 90, "description": "Analytical thinking" },
+    { "name": "Critical Thinking", "level": 92, "description": "Logical reasoning" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Chess Game with RL",
+      "description": "Dual-agent chess using MCTS and DQN algorithms with PettingZoo environment",
+      "category": "RL",
+      "technologies": ["MCTS", "DQN", "PettingZoo", "Python", "Jupyter"],
+      "github": "https://github.com/vikkyfury/Chess-game-with-RL-environments"
+    },
+    {
+      "id": 2,
+      "title": "LLMs in Health Sciences",
+      "description": "Medical text analysis and clinical decision support using Transformers and BERT",
+      "category": "NLP",
+      "technologies": ["Transformers", "Medical NLP", "BERT", "Python", "Jupyter"],
+      "github": "https://github.com/vikkyfury/LLMs-in-Health-Sciences"
+    },
+    {
+      "id": 3,
+      "title": "Sentiment Analysis MLOps",
+      "description": "End-to-end pipeline with DVC, MLflow, Docker, and CI/CD",
+      "category": "ML",
+      "technologies": ["DVC", "MLflow", "Docker", "Python", "CI/CD"],
+      "github": "https://github.com/vikkyfury/sentiment_analysis"
+    },
+    {
+      "id": 4,
+      "title": "Image Inpainting",
+      "description": "Deep learning for image restoration using neural networks",
+      "category": "Computer Vision",
+      "technologies": ["Deep Learning", "OpenCV", "Neural Networks", "Python", "Jupyter"],
+      "github": "https://github.com/vikkyfury/Image-Inpainting"
+    },
+    {
+      "id": 5,
+      "title": "Coding Platform",
+      "description": "Full-stack platform with IDE and collaborative features",
+      "category": "Full Stack",
+      "technologies": ["TypeScript", "Docker", "Node.js", "Python", "JavaScript"],
+      "github": "https://github.com/iqbal-sk/Code"
+    },
+    {
+      "id": 6,
+      "title": "Obesity Risk Prediction",
+      "description": "ML model for health risk analysis",
+      "category": "ML",
+      "technologies": ["Scikit-learn", "Pandas", "Matplotlib", "Python", "Jupyter"],
+      "github": "https://github.com/vikkyfury/Obesity-Prediction"
+    }
+  ],
+  "contact": {
+    "email": "vikkyus2772000@gmail.com",
+    "phone": "716-275-7777",
+    "location": "Charlotte, NC",
+    "github": "https://github.com/vikkyfury"
+  }
+} 
