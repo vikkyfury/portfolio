@@ -355,6 +355,11 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
+// Simple test endpoint
+app.get('/test', (req, res) => {
+  res.json({ message: 'Server is running!', timestamp: new Date().toISOString() });
+});
+
 // Serve static files in production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('dist'));
@@ -367,4 +372,10 @@ if (process.env.NODE_ENV === 'production') {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`Chat API available at http://localhost:${PORT}/api/chat`);
+  console.log(`Health endpoint available at http://localhost:${PORT}/api/health`);
+  console.log('Environment:', {
+    NODE_ENV: process.env.NODE_ENV,
+    PORT: process.env.PORT,
+    hasApiKey: !!process.env.OPENAI_API_KEY
+  });
 }); 
