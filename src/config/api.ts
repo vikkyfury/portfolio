@@ -1,8 +1,8 @@
 // API Configuration for different environments
 const getApiUrl = () => {
   if (process.env.NODE_ENV === 'production') {
-    // Use environment variable if set, otherwise use Railway backend URL
-    return process.env.REACT_APP_API_URL || 'https://vikas-portfolio-api.railway.app';
+    // Use environment variable if set, otherwise use Azure App Service URL
+    return process.env.REACT_APP_API_URL || 'https://vikas-portfolio-api-dfg2fwenddf0fydf.westus3-01.azurewebsites.net';
   }
   // Development environment
   return 'http://localhost:3001';
