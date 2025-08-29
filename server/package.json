@@ -4,10 +4,10 @@
   "description": "Backend server for portfolio chatbot",
   "main": "index.js",
   "scripts": {
-    "start": "node simple-server.js",
+    "start": "node minimal-server.js",
     "dev": "nodemon index.ts",
     "build": "tsc",
-    "start:prod": "node simple-server.js"
+    "start:prod": "node minimal-server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
