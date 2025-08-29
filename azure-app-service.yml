@@ -35,11 +35,10 @@ jobs:
         cd server
         npm run build
     
-    - name: Copy portfolio data and web.config to dist
+    - name: Copy portfolio data to dist
       run: |
         cd server
         cp portfolio-data.json dist/
-        cp ../azure-web.config dist/web.config
         cp package.json dist/
     
     - name: Deploy to Azure Web App
