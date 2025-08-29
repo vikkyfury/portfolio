@@ -33,13 +33,13 @@ jobs:
         cd server
         npm run build
     
-    - name: Copy portfolio data and minimal server to dist
+    - name: Copy portfolio data and ultra minimal server to dist
       run: |
         cd server
         cp portfolio-data.json dist/
         cp package.json dist/
         cp package-lock.json dist/
-        cp ../minimal-server.js dist/
+        cp ../ultra-minimal.js dist/
         cp ../web.config dist/
         cp ../startup.cmd dist/
     
