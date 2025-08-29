@@ -21,7 +21,11 @@ const PORT = process.env.PORT || 3002; // Use environment PORT or default to 300
 // Middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-domain.vercel.app', 'https://your-domain.com'] // Update with your actual domain
+    ? [
+        'https://heroic-tarsier-6659d3.netlify.app', 
+        'https://vikaskaturu.com',
+        'https://vikas-portfolio-frontend.azurestaticapps.net' // Your Azure Static Web App domain
+      ]
     : ['http://localhost:3000', 'http://localhost:3001'],
   credentials: true
 }));

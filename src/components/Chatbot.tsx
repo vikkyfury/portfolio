@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMessageCircle, FiX, FiSend, FiUser, FiStar, FiCpu } from 'react-icons/fi';
+import { CHAT_API_URL } from '../config/api';
 
 interface Message {
   id: string;
@@ -54,12 +55,8 @@ const Chatbot: React.FC = () => {
     setIsTyping(true);
 
     try {
-      // Use relative URL for production, fallback to localhost for development
-      const apiUrl = process.env.NODE_ENV === 'production' 
-        ? '/api/chat' 
-        : 'http://localhost:3002/api/chat';
-      console.log('Making API call to:', apiUrl);
-      const response = await fetch(apiUrl, {
+      console.log('Making API call to:', CHAT_API_URL);
+      const response = await fetch(CHAT_API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
