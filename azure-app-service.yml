@@ -39,7 +39,8 @@ jobs:
         cp portfolio-data.json dist/
         cp package.json dist/
         cp ../web.config dist/
-        cp ../startup.sh dist/
+        cp package-lock.json dist/
+        cp ../startup.js dist/
     
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
